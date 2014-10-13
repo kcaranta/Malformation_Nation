@@ -1953,10 +1953,10 @@ meta.foundation-mq-topbar {
       background: #6b6b6d;
       color: white; }
     .top-bar-section ul li.active > a {
-      background: #ABDB25;
+      background: #758D38;
       color: white; }
       .top-bar-section ul li.active > a:hover {
-        background: #0078a0;
+        background: #90ad45;
         color: white; }
   .top-bar-section .has-form {
     padding: 15px; }
@@ -2087,9 +2087,9 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #ABDB25; }
+      background: #758D38; }
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0;
+        background: #90ad45;
         color: white; }
     .top-bar-section .has-dropdown > a {
       padding-right: 35px !important; }
@@ -2186,7 +2186,7 @@ meta.foundation-mq-topbar {
     background: #6b6b6d;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
-    background: #ABDB25;
+    background: #758D38;
     color: white; }
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
     display: block;
@@ -3214,7 +3214,7 @@ meta.foundation-mq-topbar {
       width: 1.875rem;
       height: 1.875rem; }
   .icon-bar > *:hover {
-    background: #ABDB25; }
+    background: #758D38; }
   .icon-bar > * label {
     color: white; }
   .icon-bar > * i {
@@ -3836,12 +3836,12 @@ ul.pagination {
     ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.pagination li.unavailable:hover button, ul.pagination li.unavailable button:focus {
       background: transparent; }
     ul.pagination li.current a, ul.pagination li.current button {
-      background: #ABDB25;
+      background: #758D38;
       color: white;
       font-weight: bold;
       cursor: default; }
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #ABDB25; }
+        background: #758D38; }
   ul.pagination li {
     float: left;
     display: block; }
@@ -4382,7 +4382,7 @@ dialog {
   padding: 0.125rem;
   margin-bottom: 0.625rem; }
   .progress .meter {
-    background: #ABDB25;
+    background: #758D38;
     height: 100%;
     display: block; }
   .progress.secondary .meter {
@@ -4442,14 +4442,14 @@ dialog {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #ABDB25;
+      background: #758D38;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #0078a0; }
+        background: #90ad45; }
 
 /* Foundation Joyride */
 .joyride-list {
@@ -5362,7 +5362,7 @@ table {
     background: #fafafa;
     border-radius: 3px; }
     .range-slider.radius .range-slider-handle {
-      background: #ABDB25;
+      background: #758D38;
       border-radius: 3px; }
       .range-slider.radius .range-slider-handle:hover {
         background: #007ba4; }
@@ -5370,7 +5370,7 @@ table {
     background: #fafafa;
     border-radius: 1000px; }
     .range-slider.round .range-slider-handle {
-      background: #ABDB25;
+      background: #758D38;
       border-radius: 1000px; }
       .range-slider.round .range-slider-handle:hover {
         background: #007ba4; }
@@ -5379,7 +5379,7 @@ table {
     cursor: default;
     opacity: 0.7; }
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-      background: #ABDB25;
+      background: #758D38;
       cursor: default;
       opacity: 0.7; }
       .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
@@ -5402,7 +5402,7 @@ table {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #ABDB25; }
+  background: #758D38; }
   .range-slider-handle:hover {
     background: #007ba4; }
 
@@ -5783,7 +5783,7 @@ kbd {
     -moz-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   .switch input:checked + label {
-    background: #ABDB25; }
+    background: #758D38; }
   .switch input:checked + label:after {
     left: 2.25rem; }
   .switch label {
@@ -5800,7 +5800,7 @@ kbd {
   .switch label:after {
     background: white; }
   .switch input:checked + label {
-    background: #ABDB25; }
+    background: #758D38; }
   .switch.large label {
     width: 5rem;
     height: 2.5rem; }

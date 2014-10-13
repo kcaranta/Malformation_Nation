@@ -1,25 +1,50 @@
-#logo{
-	max-width: 60%;	
-	margin-top: 10px;
+#logo {
+    max-width: 60%;
+    margin-top: 10px;
 }
-#logoSmall{
-	max-width: 30%;	
-	margin-top: 10px;
+#logoSmall {
+    max-width: 30%;
+    margin-top: 10px;
+}
+.rowHeight {
+    min-height: 67.5%;
 }
 
 .fullFooter {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
-   background: #333333;
-   height: 85px;
-   position: relative;
-   bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+    background: #333333;
+    height: 85px;
+    position: relative;
+    bottom: 0;
 }
 
-
+.fullHeader {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: initial;
+    background: #333;
+    height: auto;
+    position: relative;
+    bottom: 0;
+}
 @font-face {
-    font-family: Chunk;
-    src: url(../font/blackout_midnight-webfont.woff);
+    font-family: Junction-Light;
+    src: url(../font/junction-light.woff);
+}
+@font-face {
+    font-family: Junction-Regular;
+    src: url(../font/junction-regular.woff);
+}
+@font-face {
+    font-family: Ostrich-Regular;
+    src: url(../font/ostrich/ostrich-sans-regular.woff);
+}
+@font-face {
+    font-family: Ostrich-Light;
+    src: url(../font/ostrich/ostrich-sans-light.woff);
 }
