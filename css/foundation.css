@@ -1101,8 +1101,13 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
+<<<<<<< HEAD
   background-color: #90ad45;
   border-color: #758D38;
+=======
+  background-color: #ABDB25;
+  border-color: #007095;
+>>>>>>> FETCH_HEAD
   color: white;
   transition: background-color 300ms ease-out; }
   button:hover, button:focus, .button:hover, .button:focus {
@@ -1182,8 +1187,13 @@ button, .button {
   button.round, .button.round {
     border-radius: 1000px; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
+<<<<<<< HEAD
     background-color: #90ad45;
     border-color: #758D38;
+=======
+    background-color: #ABDB25;
+    border-color: #007095;
+>>>>>>> FETCH_HEAD
     color: white;
     cursor: default;
     opacity: 0.7;
@@ -1193,7 +1203,11 @@ button, .button {
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
+<<<<<<< HEAD
       background-color: #90ad45; }
+=======
+      background-color: #ABDB25; }
+>>>>>>> FETCH_HEAD
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
       border-color: #b9b9b9;
@@ -1882,8 +1896,13 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
+<<<<<<< HEAD
         background-color: #90ad45;
         border-color: #758D38;
+=======
+        background-color: #ABDB25;
+        border-color: #007095;
+>>>>>>> FETCH_HEAD
         color: white; }
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           background-color: #758D38; }
@@ -1917,8 +1936,13 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
+<<<<<<< HEAD
       background-color: #90ad45;
       border-color: #758D38;
+=======
+      background-color: #ABDB25;
+      border-color: #007095;
+>>>>>>> FETCH_HEAD
       color: white; }
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         background-color: #758D38; }
@@ -2267,7 +2291,11 @@ meta.foundation-mq-topbar {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
+<<<<<<< HEAD
   background-color: #90ad45;
+=======
+  background-color: #ABDB25;
+>>>>>>> FETCH_HEAD
   border-color: #0078a0;
   color: white; }
   .alert-box .close {
@@ -4617,7 +4645,11 @@ dialog {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
+<<<<<<< HEAD
   background-color: #90ad45;
+=======
+  background-color: #ABDB25;
+>>>>>>> FETCH_HEAD
   color: white; }
   .label.radius {
     border-radius: 3px; }
