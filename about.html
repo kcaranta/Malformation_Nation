@@ -75,13 +75,16 @@
                     </div>
                 </div>
                 <div class="large-12 medium-12 columns">
-                        <a href="#NARC" class="button">Pollution</a>
-                        <a href="#USFWS" class="button">Contaminants</a>
-                        <a href="#UCB" class="button">Climate Change</a>
-                        <a href="#NARC" class="button">Predation</a>
-                        <a href="#USFWS" class="button">Disease</a>
-                        <a href="#UCB" class="button">UVB Radiation</a>
-                        <a href="#UCB" class="button">Unknown Factons/ Interactions</a>
+                <h3> These Factors are bad </h3>
+                        <a href="#pollution" id="pollution" class="button">Pollution</a>
+                        <a href="#contaminants" id="contaminants" class="button">Contaminants</a>
+                        <a href="#climate" id="climate" class="button">Climate Change</a>
+                        <a href="#predation" id="predation" class="button">Predation</a>
+                        <a href="#disease" id="disease" class="button">Disease</a>
+                        <a href="#uvb" id="uvb" class="button">UVB Radiation</a>
+                        <a href="#unknown" id="unknown" class="button">Unknown Factons/ Interactions</a>
+                        <div id="message" class="panel">
+                        </div>
                 </div>
                 <div class="large-6 medium-6 columns large-offset-3 medium-offset-3">
                     <img src="img/malformation.png">
@@ -121,6 +124,28 @@
             cssEase: 'linear',
             autoplay: true,
             autoplaySpeed: 2000,
+        });
+        //Scroll TO ID tags
+        $('#pollution').click(function() {
+            $('#message').html('<p>Pollution is bad</p>');
+        });
+        $('#contaminants').click(function() {
+            $('#message').html('<p>contaminants are bad</p>');
+        });
+        $('#climate').click(function() {
+            $('#message').html('<p>climates can be bad</p>');
+        });
+        $('#predation').click(function() {
+            $('#message').html('<p>predation is bad</p>');
+        });
+        $('#disease').click(function() {
+            $('#message').html('<p>desease is bad, you can get sick</p>');
+        });
+        $('#uvb').click(function() {
+            $('#message').html('<p>if you are exposed to radiation, it is bad</p>');
+        });
+        $('#unknown').click(function() {
+            $('#message').html('<p>what we dont know will hurt us</p>');
         });
     });
     </script>
