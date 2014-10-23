@@ -54,12 +54,15 @@
 </div>
     <div class="row rowHeight">
         <div class="large-12 columns">
-            <div class="fade">
+            <div class="slider">
                 <div>
                     <img src="img/banner/welcome.jpg">
                 </div>
                 <div>
-                    <img src="img/banner/about.jpg">
+                    <img src="img/banner/mouth.jpg">
+                </div>
+                <div>
+                    <img src="img/banner/legs.jpg">
                 </div>
             </div>
             <div>
@@ -103,12 +106,17 @@
     <script src="js/foundation.min.js"></script>
     <script>
     $(document).ready(function() {
-        $('.fade').slick({
+        $('.slider').slick({
+            infinite: true,
+            dots: false,
+            speed: 500,
             fade: true,
-            slide: '> div',
             cssEase: 'linear',
             autoplay: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 6000,
+            arrows: true,
+            pauseOnHover: false,
+            slide: 'div'
         });
     });
     </script>

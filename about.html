@@ -55,12 +55,9 @@
 
     <div class="row rowHeight">
         <div class="large-12 columns">
-            <div class="fade">
+            <div>
                 <div>
-                    <img src="img/banner/welcome.jpg">
-                </div>
-                <div>
-                    <img src="img/banner/about.jpg">
+                    <img src="img/banner/aboutFrog.jpg">
                 </div>
             </div>
             <div>
@@ -75,16 +72,16 @@
                     </div>
                 </div>
                 <div class="large-12 medium-12 columns">
-                <h3> These Factors are bad </h3>
-                        <a href="#pollution" id="pollution" class="button">Pollution</a>
-                        <a href="#contaminants" id="contaminants" class="button">Contaminants</a>
-                        <a href="#climate" id="climate" class="button">Climate Change</a>
-                        <a href="#predation" id="predation" class="button">Predation</a>
-                        <a href="#disease" id="disease" class="button">Disease</a>
-                        <a href="#uvb" id="uvb" class="button">UVB Radiation</a>
-                        <a href="#unknown" id="unknown" class="button">Unknown Factons/ Interactions</a>
-                        <div id="message" class="panel">
-                        </div>
+                    <h3>These Factors are bad</h3>
+                    <a href="#pollution" id="pollution" class="button">Pollution</a>
+                    <a href="#contaminants" id="contaminants" class="button">Contaminants</a>
+                    <a href="#climate" id="climate" class="button">Climate Change</a>
+                    <a href="#predation" id="predation" class="button">Predation</a>
+                    <a href="#disease" id="disease" class="button">Disease</a>
+                    <a href="#uvb" id="uvb" class="button">UVB Radiation</a>
+                    <a href="#unknown" id="unknown" class="button">Unknown Factons/ Interactions</a>
+                    <div id="message" class="panel">
+                    </div>
                 </div>
                 <div class="large-6 medium-6 columns large-offset-3 medium-offset-3">
                     <img src="img/malformation.png">
@@ -118,12 +115,17 @@
 
     <script>
     $(document).ready(function() {
-        $('.fade').slick({
+        $('.slider').slick({
+            infinite: true,
+            dots: false,
+            speed: 500,
             fade: true,
-            slide: '> div',
             cssEase: 'linear',
             autoplay: true,
             autoplaySpeed: 2000,
+            arrows: true,
+            pauseOnHover: false,
+            slide: 'div'
         });
         //Scroll TO ID tags
         $('#pollution').click(function() {
