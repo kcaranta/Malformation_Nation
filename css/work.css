@@ -53,3 +53,7 @@
 dl{
     font-size: 10px;
 }
+
+#factors a {
+    width: 100%;
+}

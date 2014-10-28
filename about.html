@@ -71,21 +71,22 @@
                         <img class="flex" src="img/about.jpg">
                     </div>
                 </div>
-                <div class="large-12 medium-12 columns">
-                    <h3>These Factors are bad</h3>
-                    <a href="#pollution" id="pollution" class="button">Pollution</a>
-                    <a href="#contaminants" id="contaminants" class="button">Contaminants</a>
-                    <a href="#climate" id="climate" class="button">Climate Change</a>
-                    <a href="#predation" id="predation" class="button">Predation</a>
-                    <a href="#disease" id="disease" class="button">Disease</a>
-                    <a href="#uvb" id="uvb" class="button">UVB Radiation</a>
-                    <a href="#unknown" id="unknown" class="button">Unknown Factons/ Interactions</a>
-                    <div id="message" class="panel">
-                    </div>
+                 <h3>Factors known to casue Malformations:</h3>
+                <div id="factors" class="large-4 medium-4 columns">
+                    <a id="pollution" class="button">Pollution</a>
+                    <a id="contaminants" class="button">Contaminants</a>
+                    <a id="climate" class="button">Climate Change</a>
+                    <a id="predation" class="button">Predation</a>
+                    <a id="disease" class="button">Disease</a>
+                    <a id="uvb" class="button">UVB Radiation</a>
+                    <a id="unknown" class="button">Unknown Factons/ Interactions</a>
                 </div>
-                <div class="large-6 medium-6 columns large-offset-3 medium-offset-3">
+                <div id="message" class="large 8 medium-8 columns">
+                        <P>These factors have been known to effect Amphibian Malformations</p>
+                </div>
+                <!--<div class="large-6 medium-6 columns large-offset-3 medium-offset-3">
                     <img src="img/malformation.png">
-                </div>
+                </div>-->
                 <div class="large-12 medium-12 columns panel">
                     <dl>
                         <dt>References</dt>
@@ -129,10 +130,10 @@
         });
         //Scroll TO ID tags
         $('#pollution').click(function() {
-            $('#message').html('<p>Pollution is bad</p>');
+            $('#message').html('<p>Pollution is bad Maecenas consequat id ex a congue. Integer congue a velit et lacinia. Nunc in lacus dapibus, sollicitudin quam vel, convallis mauris. Mauris id ex a augue feugiat egestas. Ut ac lectus neque. Nulla sollicitudin nulla et imperdiet efficitur. Vestibulum molestie velit quis nisl efficitur rutrum. Maecenas augue mi, porttitor vitae feugiat id, posuere eget arcu.</p><p>Maecenas consequat id ex a congue. Integer congue a velit et lacinia. Nunc in lacus dapibus, sollicitudin quam vel, convallis mauris. Mauris id ex a augue feugiat egestas. Ut ac lectus neque. Nulla sollicitudin nulla et imperdiet efficitur. Vestibulum molestie velit quis nisl efficitur rutrum. Maecenas augue mi, porttitor vitae feugiat id, posuere eget arcu.</p>');
         });
         $('#contaminants').click(function() {
-            $('#message').html('<p>contaminants are bad</p>');
+            $('#message').html('<p>contaminants are bad Maecenas consequat id ex a congue. Integer congue a velit et lacinia. Nunc in lacus dapibus, sollicitudin quam vel, convallis mauris. Mauris id ex a augue feugiat egestas. Ut ac lectus neque. Nulla sollicitudin nulla et imperdiet efficitur. Vestibulum molestie velit quis nisl efficitur rutrum. Maecenas augue mi, porttitor vitae feugiat id, posuere eget arcu.</p>');
         });
         $('#climate').click(function() {
             $('#message').html('<p>climates can be bad</p>');
